@@ -1,6 +1,6 @@
 FROM python:3.9-alpine
 
-ENV version=3.9.2
+ENV version=4.0.1
 
 ## install dependencies in a virtual package before to remove it
 RUN apk add --no-cache --virtual .build-deps \
